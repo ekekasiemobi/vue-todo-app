@@ -1,6 +1,6 @@
 <template>
     <h4 class=" pl-12 pt-10">
-        todo
+       {{ title}} 
     </h4>
 
 </template>
@@ -10,8 +10,8 @@
     export default{
         name: 'Header',
 
-        props: {
-
+        props:{
+            title: String
         },
 
         components :{

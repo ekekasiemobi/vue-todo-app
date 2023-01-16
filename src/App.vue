@@ -3,12 +3,16 @@
   <div style="margin-left:5%; margin-right: 5%;width:90%; height:570px;background-color:white;margin-top:3%" class="drop-shadow-lg">
     <div class="md:grid grid-cols-6">
       <div class="md:col-span-1">
-        <Header />
+        <Header title="todo-app" />
+       
         <Side />
       </div>
       <div class="md:col-span-5">
+         <Button />
         <Tasks />
       </div>
+      
+
     </div> 
     
   </div>
@@ -18,6 +22,7 @@
 import Header from './components/Header'
 import Side from './components/Side'
 import Tasks from './components/Tasks'
+import Button from './components/Button'
 
 export default {
   name: 'App',
@@ -25,6 +30,7 @@ export default {
     Header,
     Side,
     Tasks,
+    Button,
   }
 }
 </script>
