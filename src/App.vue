@@ -9,7 +9,7 @@
       </div>
       <div class="md:col-span-5">
          <Button />
-        <Tasks />
+        <Tasks :tasks="tasks"/>
       </div>
       
 
@@ -31,7 +31,38 @@ export default {
     Side,
     Tasks,
     Button,
+  },
+  data (){
+    return{
+      tasks:[
+
+      ]
+    }
+  },
+
+  created() {
+    this.tasks= [
+      {
+        id: 1,
+        text:'church',
+        day: 'monday',
+        reminder: true,
+      },
+      {
+        id: 2,
+        text:'church',
+        day: 'monday',
+        reminder: true,
+      },
+      {
+        id: 3,
+        text:'church',
+        day: 'monday',
+        reminder: true,
+      }
+    ]
   }
+ 
 }
 </script>
 
