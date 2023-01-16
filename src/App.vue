@@ -44,9 +44,9 @@ export default {
     this.tasks= [
       {
         id: 1,
-        text:'church',
-        day: 'monday',
-        reminder: true,
+        text:'Doctors appointment',
+        day: 'Febuary 5th 2023',
+        reminder: 'loremlorem lorem lorem lorem korem lorem lorem lorem',
       },
       {
         id: 2,
