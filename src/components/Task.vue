@@ -1,8 +1,9 @@
 <template>
-     <h3>{{task.id}}</h3>
-            <h3>{{task.text}}</h3>
-            <p>{{task.day}}</p>
-            <p>{{task.reminder}}</p>
+    
+    <h3 class=" pl-6 font-bold pt-6 pr-2">{{task.text}}</h3>
+    <p class="text-xs pl-6 pr-2">{{task.day}}</p>
+    <h3 class="text-xs pl-6 pr-2">{{task.time}}</h3>
+    <p class="text-sm pl-6 font-normal pt-4 pr-2">{{task.reminder}}</p>
    
 
 </template>

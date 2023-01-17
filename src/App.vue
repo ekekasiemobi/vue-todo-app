@@ -45,20 +45,23 @@ export default {
       {
         id: 1,
         text:'Doctors appointment',
-        day: 'Febuary 5th 2023',
-        reminder: 'loremlorem lorem lorem lorem korem lorem lorem lorem',
+        day: 'Monday, January 17, 2023',
+        time: '10:00am',
+        reminder: 'Work on presentation for client meeting on Wednesday and Prepare dinner',
       },
       {
         id: 2,
-        text:'church',
-        day: 'monday',
-        reminder: true,
+        text:'The second task tittle',
+        day: 'Tuesday, January 18, 2023',
+        time: '4:00pm',
+        reminder:' Review and make notes on new industry developments and Yoga class at local studio',
       },
       {
         id: 3,
-        text:'church',
-        day: 'monday',
-        reminder: true,
+        text:'The third task tittle',
+        day: 'Wednesday, January 19, 2023',
+        time:'12:30am',
+        reminder:  'Phone call with client to discuss project details and Prepare for upcoming training session',
       }
     ]
   }

@@ -7,6 +7,8 @@
 
 
 <script>
+
+   
     export default{
         name: 'Header',
 
@@ -14,9 +16,6 @@
             title: String
         },
 
-        components :{
-
-        }
     }
 
 </script>
