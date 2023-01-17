@@ -8,6 +8,7 @@
         <Side />
       </div>
       <div class="md:col-span-5">
+        <Addtask />
          <Button />
         <Tasks :tasks="tasks"/>
       </div>
@@ -23,6 +24,7 @@ import Header from './components/Header'
 import Side from './components/Side'
 import Tasks from './components/Tasks'
 import Button from './components/Button'
+import Addtask from './components/Addtask'
 
 export default {
   name: 'App',
@@ -31,6 +33,7 @@ export default {
     Side,
     Tasks,
     Button,
+    Addtask
   },
   data (){
     return{
